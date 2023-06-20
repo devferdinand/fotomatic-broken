@@ -5,6 +5,11 @@ html {
   font-size: 16px;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
@@ -46,8 +51,8 @@ header {
 header .content {
   display: flex;
   align-items: center;
-  height: 5.3125rem;
-  margin-left: 1.875rem;
+  height: 1.5625rem;
+  padding: 1.875rem;
   color: #4A4A4A;
   font-size: 1.5rem;
   font-family: 'Roboto Mono Regular', sans-serif;
@@ -84,7 +89,6 @@ nav a {
 header .icon {
   width: 1rem;
   padding-left: .75rem;
-  margin-right: 1.875rem;
 }
 
 header .mobile {
@@ -132,6 +136,7 @@ header .mobile {
   align-items: flex-start;
   height: 43.5rem;
 }
+
 
 #sign-up-cta {
   padding: 0 5rem 2.5rem 5rem;
