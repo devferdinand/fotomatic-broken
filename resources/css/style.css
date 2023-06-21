@@ -128,6 +128,11 @@ header .mobile {
   }
 }
 
+.banner {
+  background-image: url('../images/banner-landingpage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* Sign Up Section */
 
 #sign-up-section {
@@ -139,10 +144,13 @@ header .mobile {
 
 
 #sign-up-cta {
-  padding: 0 5rem 2.5rem 5rem;
+  position: relative;
+  padding: 0 5rem 3.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
-  background-color: #9dc20b;
+  background-color: #9dc20a;
+  top: 10.625rem;
+  left: 6.25rem;
 }
 
 #sign-up-cta .content {
@@ -160,6 +168,8 @@ header .mobile {
 
 #sign-up-cta h2 {
   font-size: 2.25rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 #sign-up-cta span strong {
@@ -173,11 +183,15 @@ header .mobile {
 #sign-up-cta .striking {
   font-family: "Rubik", sans-serif;
   padding-bottom: .75rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #sign-up-cta .button {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
+  width: 11rem;
+  height: 1.5rem;
 }
 
 @media only screen and (max-width: 760px) {
