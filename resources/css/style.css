@@ -21,8 +21,9 @@ html, body {
 
 .button {
   border-radius: 4px;
-  background-color: #4a4a4a;
+  background-color: #9dc20b;
   color: white;
+  padding: .1875rem .5rem;
 }
 
 .image-container {
@@ -94,6 +95,10 @@ header .icon {
 }
 
 header .mobile {
+  display: none;
+}
+
+header .tablet {
   display: none;
 }
 
@@ -436,3 +441,54 @@ footer .copyright {
     font-size: .625rem;
   }
 }
+
+/* tablet only */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  #sign-up-cta {
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0;
+    top: 4.375rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 0 0 0;
+  }
+
+  #sign-up-cta h2 {
+    margin-top: 0;
+  }
+  #sign-up-cta .email {
+    display: none;
+  }
+
+  .banner {
+    background-size: 100% auto;
+
+  }
+
+  #sign-up-section {
+    height: 23.125rem;
+    align-content: center;
+    justify-content: center;
+  }
+
+  header .desktop {
+    display: none;
+  }
+
+  header .logo {
+    display: block;
+  }
+  header .tablet {
+    display: block;
+  }
+
+
+  #quotes-section .content {
+    display: grid;
+    grid-template-columns: auto 7.375rem;
+    
+  }
+}
+
