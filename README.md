@@ -1,2 +1,18 @@
-# Given a broken version of responsive website using Codecademy code base
-# Task is to fix it with the given design spec
+# Off-Platform project
+Fix broken website for:
+```
+1. Desktop
+2. Tablet
+3. Mobile 
+```
+
+Use of:
+```
+1. Flex
+2. Grid
+3. Media query
+4. Align/Justify property
+5. Margin/Padding
+6. Position
+7. Relative unit (rem) to make responsive website
+```
