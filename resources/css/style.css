@@ -31,6 +31,7 @@ html, body {
 
 .image-container img {
   display: block;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -245,35 +246,40 @@ header .mobile {
 #features-section {
   display: flex;
   justify-content: space-between;
-  padding: 4rem 5%;
+  padding: 4rem 5% 2.875rem;
+  height: 39.6875rem;
   background-color: #f3f3f3;
 }
 
 .feature {
   flex: 1;
-  padding: 2rem;
-  margin: 0px 1.25rem;
+  margin: 0px 1.1875rem;
   background-color: white;
 }
 
 .feature .image-container {
   width: 90%;
   height: 65%;
-  margin: 0 auto;
+  margin: 2rem 2rem 2.5rem 2rem;
 }
 
 .feature h2 {
-  padding-bottom: .5rem;
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
+  margin-top: 2.5rem;
+  margin-bottom: 0;
 }
 
+/* 187 - 102.188 = 84.812/16 = 5.30075rem*/
 .feature h3 {
   font-size: 1rem;
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 5.30075rem;
 }
 
 @media only screen and (max-width: 890px) {
