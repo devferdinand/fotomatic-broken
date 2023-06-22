@@ -27,11 +27,14 @@ html, body {
 
 .image-container {
   overflow: hidden;
+  width: 26rem;
+  height: 26rem;
 }
 
 .image-container img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 760px) {
@@ -247,7 +250,6 @@ header .mobile {
   display: flex;
   justify-content: space-between;
   padding: 4rem 5% 2.875rem;
-  height: 39.6875rem;
   background-color: #f3f3f3;
 }
 
