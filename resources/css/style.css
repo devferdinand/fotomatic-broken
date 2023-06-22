@@ -27,8 +27,6 @@ html, body {
 
 .image-container {
   overflow: hidden;
-  width: 26rem;
-  height: 26rem;
 }
 
 .image-container img {
